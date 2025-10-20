@@ -167,13 +167,13 @@ namespace IntroductionTODOTNET
 					{
 						if ((cell_i + cell_j) % 2 == 0)
 						{
-							for (int k = 0; k < boardSize; k++)//печатаем n звездочек подряд для "черной" клетки
-								Console.Write("* ");
+							for (int k = 0; k < boardSize; k++)//печатаем n звездочек подряд для черной клетки
+							Console.Write("* ");
 						}
 						else
 						{
-							for (int k = 0; k < boardSize; k++)//печатаем n пробелов для "белой" клетки
-								Console.Write("  ");
+							for (int k = 0; k < boardSize; k++)//печатаем n пробелов для белой клетки
+							Console.Write("  ");
 						}
 					}
 					Console.WriteLine(); //переход на новую строку после каждой линии клеток
